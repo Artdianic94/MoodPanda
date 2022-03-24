@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeClass;
 import staticdata.WebTimeouts;
 import staticdata.WebUrls;
 
-import java.util.concurrent.TimeUnit;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 

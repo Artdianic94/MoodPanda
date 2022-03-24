@@ -18,7 +18,6 @@ public class PostUpdatePage {
     private ElementsCollection buttonGetTextOnMainBoard = $$(By.xpath("//div[@class='content']/div"));
     private SelenideElement buttonHome = $(By.xpath("//div/a[contains(.,'Home ')]"));
     private SelenideElement containerWithText = $(By.xpath(("//p[@class='title is-4 wrap']")));
-    //private SelenideElement myNoteIsExist = $(By.xpath("//div/a[contains(., 'DianaCarroll A ')]"));
     private SelenideElement myNoteIsExist = new NamesForTest().inputText();
     int i = 0;
 
@@ -53,10 +52,3 @@ public class PostUpdatePage {
         return true;
     }
 }
-//if (myNoteIsExist.isDisplayed()) {
-//        if (isTrue()) {
-//        return buttonGetTextOnMainBoard.texts();
-//        } else {
-//        return getTextFromMainBoard();
-//        }
-//        }

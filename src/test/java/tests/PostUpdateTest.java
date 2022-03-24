@@ -9,7 +9,6 @@ import testdata.GetLoginModel;
 
 import java.util.List;
 
-import static com.codeborne.selenide.Selenide.sleep;
 
 public class PostUpdateTest extends BaseTest {
     @Test(description = "Test checks sending of post")
