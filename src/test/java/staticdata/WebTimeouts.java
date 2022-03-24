@@ -1,5 +1,5 @@
 package staticdata;
 
 public class WebTimeouts {
-    public static final int ELEMENT_LOAD_TIMEOUT = 20000;
+    public static final int PAGE_LOAD_TIMEOUT = 30000;
 }

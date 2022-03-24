@@ -8,7 +8,9 @@ import pages.LoginPage;
 import testdata.GetLoginModel;
 
 public class ToastMessageTest extends BaseTest {
-    @Test
+
+    @Test(description = "Test checks the message tha the profile has been successfully updated")
+
     public void getToastMessageTest() {
         LoginPage loginPage = new LoginPage();
         loginPage.openLoginPage();

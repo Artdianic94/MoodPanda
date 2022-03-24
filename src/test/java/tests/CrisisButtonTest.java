@@ -11,7 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CrisisButtonTest extends BaseTest {
-    @Test
+
+    @Test(description = "Test checks right description on page")
     public void crisisTextTest() {
         LoginPage loginPage = new LoginPage();
         loginPage.openLoginPage();

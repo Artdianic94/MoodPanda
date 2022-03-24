@@ -6,14 +6,15 @@ import org.testng.annotations.BeforeClass;
 import staticdata.WebTimeouts;
 import staticdata.WebUrls;
 
+
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class BaseTest {
     @BeforeClass
     public void setUp() {
-        Configuration.timeout = WebTimeouts.ELEMENT_LOAD_TIMEOUT;
         Configuration.baseUrl = WebUrls.BASE_URL;
         Configuration.startMaximized = true;
+        Configuration.timeout = WebTimeouts.PAGE_LOAD_TIMEOUT;
     }
 
     @AfterClass
