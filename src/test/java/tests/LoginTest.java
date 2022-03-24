@@ -9,7 +9,7 @@ import testdata.GetLoginModel;
 
 public class LoginTest extends BaseTest {
 
-    @Test
+    @Test(description = "Test checks titles on main page")
     public void loginTest() {
         LoginPage loginPage = new LoginPage();
         loginPage.openLoginPage();

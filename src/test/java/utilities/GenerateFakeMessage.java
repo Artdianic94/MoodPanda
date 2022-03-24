@@ -8,7 +8,8 @@ public class GenerateFakeMessage {
         Faker faker = new Faker();
         return faker.name().firstName();
     }
-    public static String getSomeText(){
+
+    public static String getSomeText() {
         Faker faker = new Faker();
         return faker.howIMetYourMother().catchPhrase();
     }
